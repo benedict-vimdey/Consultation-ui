@@ -4,6 +4,7 @@ import lab from '../Images/lab.png'
 import ambulance from '../Images/amulance.png'
 import insurance from '../Images/insurance.png'
 import arrow from '../Images/arrowblue.png'
+import Mission from './Mission'
 
 
 
@@ -41,8 +42,8 @@ const details = [
 const ExploreDetails = ({icon, title, text}) => {
     return(
         <div className="w-full">
-            <div className=' max-w-xs space-x-5 space-y-5 w-60 m-1 flex-wrap rounded-xl bg-white
-             mb-5 py-3 hover:bg-blue-700 hover:shadow-2xl'>
+            <div className=' max-w-xs space-x-5 space-y-5 w-60 m-1 flex-wrap rounded-xl bg-gray-100
+             mb-5 py-3 hover:bg-blue-700 hover:drop-shadow-2xl'>
                 <div className=' mt-2'>
                     <img src={icon} className=' w-12 rounded-full mx-auto'/>
                 </div>
@@ -91,8 +92,7 @@ function Explore() {
                     </div>
                 </div>
 
-
-
+                <Mission/>
             </div>
         </div>
     )
