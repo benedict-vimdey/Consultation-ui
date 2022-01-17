@@ -3,7 +3,7 @@ import doc from '../Images/docsgrid.png'
 
 function GoodServices() {
     return (
-        <div className=' max-w-7xl mt-20'>
+        <div className=' max-w-7xl mt-20 pb-20'>
             <div className=' grid grid-cols-2'>
                 <div className=' px-16 py-28'>
                     <p className=' text-3xl font-bold text-gray-700'>
