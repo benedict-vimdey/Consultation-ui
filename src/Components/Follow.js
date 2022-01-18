@@ -50,7 +50,7 @@ const ElementDetails = ({image, date, title, text, readmore}) =>{
                         {text}
                     </p>
 
-                    <p className=' mt-8 text-blue-800'>
+                    <p className=' mt-8 text-blue-800 cursor-pointer'>
                         {readmore}
                     </p>
                 </div>

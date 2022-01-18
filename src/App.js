@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import Explore from './Components/Explore';
 import GoodServices from './Components/GoodServices';
 import Follow from './Components/Follow';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
      <Explore/>
      <GoodServices/>
      <Follow/>
+     <Footer/>
     </div>
   );
 }
